@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funcionários</title>
+    <link rel="stylesheet" href="funcionarios.css">
+</head>
+<body>
+    <header>
+        <p><h1>LOJINHA DO KEVAO</p></h1>
+    </header>
+    <main>
+   <nav>
+        <a href="http://127.0.0.1:5500/index.html">Página Inicial</a>
+        <a href="http://127.0.0.1:5500/ctrl-estoque.html">Controle de Estoque</a>
+        <a href="http://127.0.0.1:5500/add-produto.html">Adicionar Produto</a>
+        <a href="http://127.0.0.1:5500/funcionarios.html">Funcionários</a>
+        <a href="http://127.0.0.1:5500/historico.html">Hisotico de vendas</a>
+        <a href="http://127.0.0.1:5500/venda.html">Paginas de venda</a>
+    </nav>
+    
+    <h2>Funcionários</h2>
+    <table>
+        
+            <tr>
+                <th>Foto</th>
+<th>Nome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="data:image/jpeg;base64,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" width="300" height="300" alt="bola" /></td>
+                <td>VINI</td>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8W0oa9JPMCdF4YNpGk5KaluiLloQ0pjRsJg&s" width="300" height="300" alt="dilton" /></td>
+                <td>DILTON</td>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHVbT51eoqxh5cBy6FB84tSg9mI8Hi5tUNA&s" width="300" height="300" alt="capita" /></td>
+                <td>CAPITA</td>
+            </tr>
+            <tr>
+                <td><img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4065648.png" width="300" height="300" alt="outra foto" /></td>
+                <td>GOMES</td>
+            
+                
+            </tr>
+            <table>
+        </main>
+        <footer><img src="https://i.pinimg.com/736x/ec/ef/2e/ecef2ea8bb5a9ae8a80efcc04084c8bf.jpg" width="100" alt="a"></footer>
+</body>
+</html>

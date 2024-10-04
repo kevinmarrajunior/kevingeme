@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <header>
+        <p>LOJINHA DO KEVAO</p>
+    </header>
+    <main>
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html">Página Inicial</a>
+        <a href="http://127.0.0.1:5500/ctrl-estoque.html">Controle de Estoque</a>
+        <a href="http://127.0.0.1:5500/add-produto.html">Adicionar Produto</a>
+        <a href="http://127.0.0.1:5500/funcionarios.html">Funcionários</a>
+        <a href="http://127.0.0.1:5500/historico.html">Hisotico de vendas</a>
+        <a href="http://127.0.0.1:5500/venda.html">Paginas de venda</a>
+    </nav>
+     
+
+    <h2>Adicionar Produto</h2>
+    <form action="">
+        <section>
+            <label for="link-foto">Link para foto: </label>
+            <input type="url" id="link-foto" name="link-foto">
+        </section> 
+        
+        <section>
+            <label for="descricao">Descrição do produto: </label>
+            <!-- Adicione o id apropriado para o input abaixo -->
+            <input type="text" id="descrição-produto" name="descrição">
+        </section>
+        
+        <section>
+            <label for="preco">Preço (em R$): </label>
+            <!-- Adicione o id apropriado e o type para receber números abaixo -->
+            <input type="number" id="preço" name="preço">
+        </section>
+        
+        <section>
+            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+            <label>Quantidade disponível: </label>
+            <input type="number" id="quantidade-disponivel" name= "quantidade-disponivel">
+        </section>
+
+        <section class="form-add">
+            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+            <button type="submit">Adicionar</button>
+        </section>
+    </main>
+    </form>
+    <footer><img src="https://i.pinimg.com/736x/ec/ef/2e/ecef2ea8bb5a9ae8a80efcc04084c8bf.jpg" width="100" alt="a"></footer>
+</body>
+</html>
